@@ -105,7 +105,7 @@ You can store sensor directly to the Tangle and view it using the Tangle Explore
 
 [Retrieving data]()
 
-[Retrieving data using ZMQ](zmq_listener.md)
+[Retrieving data using ZMQ](https://github.com/NelsonPython/IoT-ZMQ-listener/blob/master/README.md)
 
 ## Selling your data
 
