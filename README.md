@@ -44,19 +44,10 @@ $ Python 3.7.3
 pip3 --version
 $  pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 ```
-## Installing the [PyOTA client library](https://github.com/iotaledger/iota.lib.py)
-
-Install the Pyota client library so you can communicate with the [Tangle](https://docs.iota.org/docs/dev-essentials/0.1/concepts/the-tangle)
-
->Pyota does not support Python version 3.7.3 as of August 2019. Fortunately, you can still use Python 2.7 for this example.
-
-```
-pip install pyota
-```
 
 ## Installing the [Python IOTA Workshop scripts](https://github.com/iota-community/python-iota-workshop)
 
-This workshop includes a step-by-step tutorial teaching the details of sending and receiving transactions to the Tangle.  They provide the foundation for the code used to store sensor data from EnviroPhat.
+This will install the Pyota client library so you can communicate with the [Tangle](https://docs.iota.org/docs/dev-essentials/0.1/concepts/the-tangle).  This workshop includes a step-by-step tutorial teaching the details of sending and receiving transactions to the Tangle.  They provide the foundation for the code used to store sensor data from CO2-TVOC.
 
 Clone the github repository, install the workshop code, and run the "hello world" example.
 
