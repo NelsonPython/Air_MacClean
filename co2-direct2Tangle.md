@@ -1,6 +1,6 @@
 # Storing sensor data on the Tangle
 
-Since the CCS811 sensor requires Python 3.7.3 and Pyota requires Python 2.7, I created two scripts:  AQ.py and sendTX.py.  Then, I wrote a shell script to run both python scripts:
+Since the CCS811 sensor requires Python 3.7.3 and Pyota requires Python 2.7, I created two scripts:  [AQ.py](https://github.com/NelsonPython/CO2TVOC/blob/master/code/AQ.py) and [sendTX.py](https://github.com/NelsonPython/CO2TVOC/blob/master/code/sendTX.py).  Then, I wrote a shell script to run both python scripts:
 
 ```
 python3 /home/pi/AQ.py
