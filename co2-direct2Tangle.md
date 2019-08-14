@@ -7,7 +7,7 @@ python3 /home/pi/AQ.py
 python /home/pi/sendTX.py
 ```
 
-I used a cronjob to schedule this shell script to run every 20 minutes.  AQ.py senses the data and saves it to a file.  sendTX.py reads the file and sends the data to the Tangle.
+I used cron to schedule this shell script to run every 20 minutes.  AQ.py senses the data and saves it to a file.  sendTX.py reads the last line of the file and sends the data to the Tangle.
 
 ## Sensing data with AQ.py
 
