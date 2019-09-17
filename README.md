@@ -102,9 +102,9 @@ You can store sensor directly to the Tangle and view it using the Tangle Explore
 
 You sell data by publishing it on the I3 Consortium Data Marketplace where subscribers can buy it:
 
-[Publishing data to the I3 Data Marketplace](co2-I3-publish.md)
+[Publishing data to the I3 Data Marketplace]() - coming soon
 
-[Retrieving your data subscription](co2-I3-subscribe.md)
+[Retrieving your data subscription]() - coming soon
 
 
 ## Investigating patterns in your data
