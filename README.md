@@ -109,6 +109,8 @@ Retrieving your data subscription - coming soon
 
 Plotting CO2 and TVOC data over time shows how air quality may change.  Use this data science notebook to get started [investigating patterns in CO2-TVOC data](https://www.kaggle.com/nelsondata/los-angeles-air-quality)
 
+[Charting CO2 data on ThingSpeak](https://thingspeak.com/channels/865249)
+
 ## Planning for the future
 
 - When Pyota supports Python 3.7.3, update AQ.py to send data to the Tangle without saving it to a file
