@@ -111,6 +111,12 @@ Plotting CO2 and TVOC data over time shows how air quality may change.  Use this
 
 [Charting CO2 data on ThingSpeak](https://thingspeak.com/channels/865249)
 
-## Planning for the future
+## Learning as we go
+
+- Seeds are only needed for sending value transactions
+
+- Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:
+https://www.raspberrypi.org/forums/viewtopic.php?t=252984
 
 - When Pyota supports Python 3.7.3, update AQ.py to send data to the Tangle without saving it to a file
+
