@@ -118,5 +118,5 @@ Plotting CO2 and TVOC data over time shows how air quality may change.  Use this
 - Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:
 https://www.raspberrypi.org/forums/viewtopic.php?t=252984
 
-- When Pyota supports Python 3.7.3, update AQ.py to send data to the Tangle without saving it to a file
+- Testing is underway using the new version of Pyota that supports Python 3.7.3.  Expect updates to this tutorial
 
