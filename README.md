@@ -45,66 +45,6 @@ pip3 --version
 $  pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 ```
 
-## Installing the [Python IOTA Workshop scripts](https://github.com/iota-community/python-iota-workshop)
-
-This will install the Pyota client library so you can communicate with the [Tangle](https://docs.iota.org/docs/dev-essentials/0.1/concepts/the-tangle).  This workshop includes a step-by-step tutorial teaching the details of sending and receiving transactions to the Tangle.  They provide the foundation for the code used to store sensor data from CO2-TVOC.
-
-Clone the github repository, install the workshop code, and run the "hello world" example.
-
-```
-git clone https://github.com/iota-community/python-iota-workshop.git
-
-cd python-iota-workshop
-pip install -r requirements.txt
-python code/e01_hello_world.py
-```
-
-The Tangle will respond with the latest statistics:
-
-```
-
-{u'appName': u'IRI Testnet',
- u'appVersion': u'1.8.0-RC1',
- u'coordinatorAddress': u'EQQFCZBIHRHWPXKMTOLMYUYPCN9XLMJPYZVFJSAY9FQHCCLWTOLLUGKKMXYFDBOOYFBLBI9WUEILGECYM',
- u'duration': 0,
- u'features': [u'dnsRefresher', u'testnet', u'zeroMessageQueue', u'RemotePOW'],
- u'jreAvailableProcessors': 8,
- u'jreFreeMemory': 12670851880L,
- u'jreMaxMemory': 22906667008L,
- u'jreTotalMemory': 16866344960L,
- u'jreVersion': u'1.8.0_181',
- u'lastSnapshottedMilestoneIndex': 1313805,
- u'latestMilestone': TransactionHash('SJWXOHIUGFMOKSSKKFEQJDZDCVOSFSXPAVWDUIUPKUDAJRLVBTPKSHYBAHAFVQAVIHOLKYVSCPCPFE999'),
- u'latestMilestoneIndex': 1313911,
- u'latestSolidSubtangleMilestone': TransactionHash('SJWXOHIUGFMOKSSKKFEQJDZDCVOSFSXPAVWDUIUPKUDAJRLVBTPKSHYBAHAFVQAVIHOLKYVSCPCPFE999'),
- u'latestSolidSubtangleMilestoneIndex': 1313911,
- u'milestoneStartIndex': 434527,
- u'neighbors': 3,
- u'packetsQueueSize': 0,
- u'time': 1565655959126L,
- u'tips': 748,
- u'transactionsToRequest': 0}
-```
-
-## Using your data
-
-You can store sensor directly to the Tangle and view it using the Tangle Explorer.  You can use custom scripts or the ZMQ listener to retrieve it.
-
-[Storing sensor data on the Tangle](co2-direct2Tangle.md)
-
-[Viewing data using the Devnet Tangle Explorer](https://devnet.thetangle.org/)
-
-[Retrieving data using ZMQ](https://github.com/NelsonPython/IoT-ZMQ-listener/blob/master/README.md)
-
-## Selling your data
-
-You sell data by publishing it on the I3 Marketplace where subscribers can buy it:
-
-Publishing data to the I3 Data Marketplace - coming soon
-
-Retrieving your data subscription - coming soon
-
-
 ## Investigating patterns in your data
 
 Plotting CO2 and TVOC data over time shows how air quality may change.  Use this data science notebook to get started [investigating patterns in CO2-TVOC data](https://www.kaggle.com/nelsondata/los-angeles-air-quality)
@@ -113,10 +53,6 @@ Plotting CO2 and TVOC data over time shows how air quality may change.  Use this
 
 ## Learning as we go
 
-- Seeds are only needed for sending value transactions
-
 - Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:
 https://www.raspberrypi.org/forums/viewtopic.php?t=252984
-
-- Testing is underway using the new version of Pyota that supports Python 3.7.3.  Expect updates to this tutorial
 
