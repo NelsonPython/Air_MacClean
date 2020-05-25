@@ -45,14 +45,16 @@ pip3 --version
 $  pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 ```
 
-## Investigating patterns in your data
+## Gathering data
+
+stay tuned...
+
+## Investigating your data
 
 Plotting CO2 and TVOC data over time shows how air quality may change.  Use this data science notebook to get started [investigating patterns in CO2-TVOC data](https://www.kaggle.com/nelsondata/los-angeles-air-quality)
 
 [Charting CO2 data on ThingSpeak](https://thingspeak.com/channels/865249)
 
-## Learning as we go
+## Known bugs
 
-- Raspberry Pi Buster operating system appears to have a WiFi Bug.  You may want to use Stretch until a solution is found.  Learn more:
-https://www.raspberrypi.org/forums/viewtopic.php?t=252984
-
+- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984. 
