@@ -2,13 +2,14 @@
 
 <b>You can monitor CO2 and TVOC using a Raspberry Pi and an Adafruit CCS811 gas sensor.</b> TVOC stands for Total Volatile Organic Compounds. This sensor measures CO2 in PPM (parts per million) and TVOCs in PPB (parts per billion).
 
-
+<table><tr><td>
 ## <a  href="https://www.adafruit.com/product/3566?gclid=CjwKCAjw4NrpBRBsEiwAUcLcDC7rfEBlaclDQMmAmDsiB-NlT1wL61pWEKSJDLwR02b2QgCL3pEg2RoCNKAQAvD_BwE">CO2-TVOC Sensor<br>
 <img src="images/ccs811.png" width=200></a>
-
+  </td><td>
 ## <a href="https://thepihut.com/collections/raspberry-pi/products/raspberry-pi-zero-w">Raspberry Pi Zero W
 <img src="images/RasPiZeroHeader.jpg" width=200>
 <br>The Raspberry Pi Mega Kit includes a Raspberry Pi Zero W</a> with GPIO header attached plus a 16GB MicroSD memory card with the Raspbian operating system installed.  You can use your own memory card and <a href="https://www.raspberrypi.org/downloads/raspbian/">download and install Raspbian</a> 
+  </td></tr></table>
 
 ## Interacting with Raspberry Pi Zero W
 
@@ -51,11 +52,11 @@ stay tuned...
 
 ## Investigating your data
 
-What happens when you plot air quality data over time?  
-
-Use this data science notebook to explore [investigating CO2-TVOC data](https://www.kaggle.com/nelsondata/los-angeles-air-quality)
-
 [Charting CO2 data on ThingSpeak](https://thingspeak.com/channels/865249)
+
+
+What happens when you plot air quality data over time?  
+Use this data science notebook to explore [investigating CO2-TVOC data](https://www.kaggle.com/nelsondata/los-angeles-air-quality)
 
 ## Known bugs
 
