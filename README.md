@@ -51,7 +51,7 @@ stay tuned...
 
 ## Investigating your data
 
-What happens when you plot air quality data over time.  Use this data science notebook to explore [investigating CO2-TVOC data](https://www.kaggle.com/nelsondata/los-angeles-air-quality)
+What happens when you plot air quality data over time?  Use this data science notebook to explore [investigating CO2-TVOC data](https://www.kaggle.com/nelsondata/los-angeles-air-quality)
 
 [Charting CO2 data on ThingSpeak](https://thingspeak.com/channels/865249)
 
