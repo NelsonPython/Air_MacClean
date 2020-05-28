@@ -49,7 +49,7 @@ $  pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 
 ## Gathering data
 
-stay tuned...
+<a href="https://github.com/NelsonPython/DriveI5/blob/master/PublicRadio/airMacClean.md">Saving sensor data in a MySQL table</a>
 
 ## Investigating your data
 
