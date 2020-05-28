@@ -55,7 +55,7 @@ $  pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 
 ## Gathering data
 
-<a href="viewAirMacClean.md">Viewing sensor data</a>
+<a href="viewAirMacClean.md">Watching sensor readings</a>
 
 <a href="https://github.com/NelsonPython/DriveI5/blob/master/PublicRadio/airMacCleanTable.md">Saving sensor data in a MySQL table</a>
 
