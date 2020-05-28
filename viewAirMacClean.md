@@ -19,7 +19,14 @@ while True:
         pass
     else:
         print("CO2: %1.0f PPM" % ccs811.eco2)
-        print("TVOC: %1.0f PPM" % ccs811.tvoc)
-        print("Temperature: %0.1f C" % ccs811.temperature)
+        print("TVOC: %1.0f PPB" % ccs811.tvoc)
     time.sleep(5)
+```
+
+Sample sensor data
+
+```
+pi@raspberrypi:~/AirQuality $ python3 testccs811.py
+CO2: 407 PPM
+TVOC: 1 PPM
 ```
