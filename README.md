@@ -27,6 +27,10 @@ You can connect remotely using Secure Shell (SSH) but you must enable SSH.  Clic
 
 Use this [tutorial](https://learn.adafruit.com/adafruit-ccs811-air-quality-sensor/raspberry-pi-wiring-test) to build your device
 
+<b>Known bugs</b>
+
+- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984
+
 
 ## Verifying the version of Python
 
@@ -61,6 +65,6 @@ $  pip 18.1 from /usr/lib/python3/dist-packages/pip (python 3.7)
 What happens when you plot air quality data over time?  
 Use this data science notebook to explore [investigating CO2-TVOC data](https://www.kaggle.com/nelsondata/los-angeles-air-quality)
 
-## Known bugs
+## Experimenting
 
-- As of October 2019, Raspberry Pi Buster operating system may have a WiFi Bug:  https://www.raspberrypi.org/forums/viewtopic.php?t=252984. 
+[What's the CO2 level onboard an AV?](https://github.com/NelsonPython/DriveI5)
